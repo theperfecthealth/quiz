@@ -40,7 +40,7 @@ body header {
 
 @media (min-width: 576px) and (max-width: 1199.98px) {
   body header {
-    height: 8rem;
+    height: 6rem;
   }
 }
 
@@ -51,8 +51,8 @@ body header img {
 
 @media (min-width: 576px) and (max-width: 1199.98px) {
   body header img {
-    width: 11rem;
-    height: 7.5rem;
+    width: 12rem;
+    height: 5rem;
   }
 }
 
@@ -242,7 +242,7 @@ body main .quiz .content .answers .answer .circle {
 body main .quiz .content .answers .answer .circle::before {
   content: "";
   position: absolute;
-  top: 1.25rem;
+  top: 1.35rem;
   left: 1rem;
   width: 10px;
   height: 10px;
@@ -441,6 +441,12 @@ body .sib-form {
   width: 50%;
   margin: 0 auto;
   padding: 0;
+}
+
+@media (max-width: 991.98px) {
+  body .sib-form {
+    width: 100%;
+  }
 }
 
 body .sib-form #sib-container {

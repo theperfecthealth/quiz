@@ -32,7 +32,7 @@ body {
     height: 5rem;
 
     @media (min-width: 576px) and (max-width: 1199.98px) {
-      height: 8rem;
+      height: 6rem;
     }
 
     img {
@@ -40,8 +40,8 @@ body {
       height: 3.5rem;
 
       @media (min-width: 576px) and (max-width: 1199.98px) {
-        width: 11rem;
-        height: 7.5rem;
+        width: 12rem;
+        height: 5rem;
       }
     }
   }
@@ -189,7 +189,7 @@ body {
               &::before {
                 content: "";
                 position: absolute;
-                top: 1.25rem;
+                top: 1.35rem;
                 left: 1rem;
                 width: 10px;
                 height: 10px;
@@ -361,6 +361,10 @@ body {
     width: 50%;
     margin: 0 auto;
     padding: 0;
+
+    @media (max-width: 991.98px) {
+      width: 100%;
+    }
 
     #sib-container {
       background: none;
