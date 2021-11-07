@@ -102,7 +102,8 @@ body main .quiz .content .headline img {
 
 @media (max-width: 575.98px) {
   body main .quiz .content .headline img {
-    width: 100%;
+    width: 98%;
+    height: 2.8rem;
   }
 }
 
@@ -114,12 +115,12 @@ body main .quiz .content .headline img {
 
 body main .quiz .content .headline h1 {
   position: absolute;
-  top: 0.1rem;
+  top: -0.2rem;
   left: 0;
   right: 0;
   font-size: 1.5rem;
   margin: 0;
-  color: #121212;
+  color: #2c2c2c;
   text-align: center;
   padding: 1rem;
   border-radius: 0.25rem;
@@ -127,8 +128,8 @@ body main .quiz .content .headline h1 {
 
 @media (max-width: 575.98px) {
   body main .quiz .content .headline h1 {
-    font-size: 0.95rem;
-    top: 0.5rem;
+    font-size: 0.75rem;
+    top: -0.38rem;
   }
 }
 
@@ -230,6 +231,12 @@ body main .quiz .content .answers .answer {
   }
 }
 
+@media (max-width: 575.98px) {
+  body main .quiz .content .answers .answer {
+    font-size: 0.85rem;
+  }
+}
+
 body main .quiz .content .answers .answer .answer-option {
   pointer-events: none;
 }
@@ -315,6 +322,7 @@ body main .testimonials {
     width: 90%;
     -ms-grid-columns: auto;
         grid-template-columns: auto;
+    gap: 0;
   }
 }
 
@@ -327,6 +335,14 @@ body main .testimonials .testimonial {
   padding: 1rem;
   border-radius: 0.25rem;
   color: #121212;
+}
+
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    padding: 0.5rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 1199.98px) {
@@ -347,18 +363,46 @@ body main .testimonials .testimonial .profile {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 100%;
-  width: 8rem;
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial .profile {
+    width: 100%;
+  }
 }
 
 body main .testimonials .testimonial .profile img {
-  width: 100%;
+  width: 8rem;
   height: 8rem;
   border-radius: 100%;
+}
+
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial .profile img {
+    margin-bottom: 1rem;
+  }
 }
 
 body main .testimonials .testimonial .rate {
   margin-top: 0.5rem;
   width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial .rate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
 }
 
 body main .testimonials .testimonial .rate img {
@@ -368,6 +412,12 @@ body main .testimonials .testimonial .rate img {
 @media (min-width: 576px) and (max-width: 1199.98px) {
   body main .testimonials .testimonial .rate img {
     width: 8rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial .rate img {
+    width: 60%;
   }
 }
 
@@ -386,6 +436,13 @@ body main .testimonials .testimonial .comment {
   font-weight: 400;
 }
 
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial .comment {
+    text-align: center;
+    margin: 0;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 1199.98px) {
   body main .testimonials .testimonial .comment {
     font-size: 1.2rem;
@@ -396,6 +453,21 @@ body main .testimonials .testimonial .details {
   margin-left: 1rem;
 }
 
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 1199.98px) {
   body main .testimonials .testimonial .details {
     font-size: 1.2rem;
@@ -404,11 +476,25 @@ body main .testimonials .testimonial .details {
 
 body main .testimonials .testimonial .details .name {
   font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial .details .name {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
 }
 
 body main .testimonials .testimonial .details .location {
   font-weight: bold;
   color: #225dff;
+}
+
+@media (max-width: 575.98px) {
+  body main .testimonials .testimonial .details .location {
+    margin: 0;
+  }
 }
 
 body footer {
