@@ -83,7 +83,8 @@ body {
             margin: 0;
 
             @media (max-width: 575.98px) {
-              width: 100%;
+              width: 98%;
+              height: 2.8rem;
             }
 
             @media (min-width: 576px) and (max-width: 1199.98px) {
@@ -93,20 +94,20 @@ body {
 
           h1 {
             position: absolute;
-            top: 0.1rem;
+            top: -0.2rem;
             left: 0;
             right: 0;
 
             font-size: 1.5rem;
             margin: 0;
-            color: #121212;
+            color: #2c2c2c;
             text-align: center;
             padding: 1rem;
             border-radius: 0.25rem;
 
             @media (max-width: 575.98px) {
-              font-size: 0.95rem;
-              top: 0.5rem;
+              font-size: 0.75rem;
+              top: -0.38rem;
             }
 
             @media (min-width: 576px) and (max-width: 1199.98px) {
@@ -118,8 +119,16 @@ body {
 
         .question {
           text-align: center;
-          margin: 2rem 0;
-          font-size: 2rem;
+          margin: 2rem auto;
+          font-size: 2.2rem;
+
+          @media (max-width: 575.98px) {
+            font-size: 1.6rem;
+          }
+
+          &::selection {
+            background: var(--yellow);
+          }
         }
 
         .rate {
@@ -176,6 +185,9 @@ body {
 
             @media (min-width: 576px) and (max-width: 1199.98px) {
               font-size: 1.3rem;
+            }
+            @media (max-width: 575.98px) {
+              font-size: 0.85rem;
             }
 
             .answer-option {
@@ -257,6 +269,7 @@ body {
       @media (min-width: 576px) and (max-width: 1199.98px) {
         width: 90%;
         grid-template-columns: auto;
+        gap: 0;
       }
 
       .testimonial {
@@ -267,6 +280,11 @@ body {
         border-radius: 0.25rem;
         color: #121212;
 
+        @media (max-width: 575.98px) {
+          grid-template-columns: auto;
+          padding: 0.5rem;
+        }
+
         @media (min-width: 576px) and (max-width: 1199.98px) {
           grid-template-columns: 1fr 5fr;
         }
@@ -276,12 +294,19 @@ body {
           justify-content: center;
           align-items: center;
           border-radius: 100%;
-          width: 8rem;
+          width: 100%;
+          @media (max-width: 575.98px) {
+            width: 100%;
+          }
 
           img {
-            width: 100%;
+            width: 8rem;
             height: 8rem;
             border-radius: 100%;
+
+            @media (max-width: 575.98px) {
+              margin-bottom: 1rem;
+            }
           }
         }
 
@@ -289,11 +314,22 @@ body {
           margin-top: 0.5rem;
           width: 100%;
 
+          @media (max-width: 575.98px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0;
+          }
+
           img {
             width: 100%;
 
             @media (min-width: 576px) and (max-width: 1199.98px) {
               width: 8rem;
+            }
+
+            @media (max-width: 575.98px) {
+              width: 60%;
             }
           }
         }
@@ -305,6 +341,11 @@ body {
           margin-left: 1rem;
           font-weight: 400;
 
+          @media (max-width: 575.98px) {
+            text-align: center;
+            margin: 0;
+          }
+
           @media (min-width: 576px) and (max-width: 1199.98px) {
             font-size: 1.2rem;
           }
@@ -313,17 +354,32 @@ body {
         .details {
           margin-left: 1rem;
 
+          @media (max-width: 575.98px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
           @media (min-width: 576px) and (max-width: 1199.98px) {
             font-size: 1.2rem;
           }
 
           .name {
             font-weight: bold;
+            font-size: 1.2rem;
+
+            @media (max-width: 575.98px) {
+              margin: 0;
+              margin-top: 0.5rem;
+            }
           }
 
           .location {
             font-weight: bold;
             color: rgb(34, 93, 255);
+
+            @media (max-width: 575.98px) {
+              margin: 0;
+            }
           }
         }
       }

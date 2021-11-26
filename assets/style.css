@@ -142,8 +142,22 @@ body main .quiz .content .headline h1 {
 
 body main .quiz .content .question {
   text-align: center;
-  margin: 2rem 0;
-  font-size: 2rem;
+  margin: 2rem auto;
+  font-size: 2.2rem;
+}
+
+@media (max-width: 575.98px) {
+  body main .quiz .content .question {
+    font-size: 1.6rem;
+  }
+}
+
+body main .quiz .content .question::-moz-selection {
+  background: var(--yellow);
+}
+
+body main .quiz .content .question::selection {
+  background: var(--yellow);
 }
 
 body main .quiz .content .rate {
