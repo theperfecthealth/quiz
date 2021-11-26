@@ -23,7 +23,7 @@ const loseQuestions = {
 
   javaBurn: {
     title:
-      "You Are Interested To Know How A 43 Year Old Mom Lost 54 Pounds Without Dieting, Just Using Java Burn.",
+      "You Are Interested To Know How A 43 Year Old Mom Lost 54 Pounds Without Dieting, Just With A Simple Breakfest Routine?",
 
     option1: "Yes, Show Me!",
     option2: "Yes, Please!",
@@ -39,7 +39,7 @@ const loseQuestions = {
 
   finalJavaBurn: {
     title:
-      "Just Enter Your Name And Email Address Below To Discover How A 43 Year Old Mom Lost 54 Pounds Without Dieting, Just Using Java Burn.",
+      "Just Enter Your Name And Email Address Below To Discover How A 43 Year Old Mom Lost 54 Pounds Without Dieting, Just With A Simple Breakfest Routine.",
     form: "https://2e640dc0.sibforms.com/serve/MUIEAF00tXZy6iBJj4QKLlMbXFKaUJ78slQ-oG5SIZy4_YNUUKqgo35mceVVLyANncWzwS8gwhxFnLhbWcY8cxJ20a-nrFGS-2yA-3WGckFub2146uRwOLOIc5zmkK_QsHZNXxynmgIM_QR_18wecUAcPHw0C8DhJeNdH1YdJxNsVkNhfeQVsY5M3bLOJRnY74GbOsmd8feQhUgV",
   },
 
